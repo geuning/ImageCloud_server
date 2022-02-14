@@ -8,7 +8,6 @@ import javax.persistence.*;
 
 @Entity
 @Getter
-@Setter
 @NoArgsConstructor
 public class Tag {
 
@@ -17,7 +16,6 @@ public class Tag {
     private Long tagId;
 
     @Column(nullable = false)
-    private String name;
-
+    private String keyword;
 
 }
