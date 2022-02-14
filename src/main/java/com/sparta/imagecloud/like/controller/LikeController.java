@@ -17,7 +17,7 @@ public class LikeController {
 
     @PostMapping("/pictures/{articleId}/like")
     public ResponseEntity<LikeResponseDto> getLikes(@PathVariable Long articleId){
-        likeService.getLikes(articleId);
+//        likeService.getLikes(articleId);
         return ResponseEntity.ok().build();
     }
 }

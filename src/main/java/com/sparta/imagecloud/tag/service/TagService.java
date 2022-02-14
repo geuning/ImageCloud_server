@@ -46,7 +46,7 @@ public class TagService {
            }
 
            List<Long> likeUserIds = new ArrayList<>();
-           List<Likes> LikeUser = likeRepository.findByArticleId(article.getArticleId());
+           List<Likes> LikeUser = likeRepository.findAllByArticle(article);
 
            for (Likes likes : LikeUser) {
                likeUserIds.add(likes.getUser().getUserId());

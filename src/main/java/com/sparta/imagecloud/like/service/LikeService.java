@@ -15,9 +15,9 @@ public class LikeService {
     private final LikeRepository likeRepository;
 
 
-    public Boolean getLikes(Long articleId) {
-        Boolean articleLike = likeRepository.findByArticleId(articleId);
-
-
-    }
+//    public Boolean getLikes(Long articleId) {
+//        Boolean articleLike = likeRepository.findByArticleId(articleId);
+//
+//
+//    }
 }
